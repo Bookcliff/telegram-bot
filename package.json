@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "node-fetch": "2",
+    "vercel": "^24.2.4"
+  }
+}
