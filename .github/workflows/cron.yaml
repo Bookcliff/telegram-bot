@@ -11,5 +11,5 @@ jobs:
         #   GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
         #   ISSUE_URL: ${{ github.event.issue.html_url }}
         run: |
-          curl --request POST \
+          curl --request GET \
           --url 'telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot'
