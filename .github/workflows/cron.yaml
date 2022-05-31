@@ -12,5 +12,4 @@ jobs:
         #   ISSUE_URL: ${{ github.event.issue.html_url }}
         run: |
           curl --request POST \
-          --url 'telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot' \
-          # --header "Authorization: Bearer ${{ secrets.MY_TOKEN }}" \
+          --url 'telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot'
