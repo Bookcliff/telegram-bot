@@ -1,7 +1,7 @@
 name: sunday-cron
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '35 16 * * 0'
 jobs:
   cron:
     runs-on: ubuntu-latest
@@ -9,4 +9,4 @@ jobs:
       - name: Call Telegram API route
         run: |
           curl --request GET \
-          --url 'https://telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot'
+          --url 'https://telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot'c
