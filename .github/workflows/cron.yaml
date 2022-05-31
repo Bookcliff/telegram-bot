@@ -13,4 +13,5 @@ jobs:
         run: |
           curl --request POST \
           --url 'localhost:3000/api/bot' \
-          --header 'Authorization: Bearer ${{ secrets.API_SECRET_KEY }}'
+          --header 'Authorization: Bearer ${{ secrets.API_SECRET_KEY }}' \
+          --console.log(message)
