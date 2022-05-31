@@ -1,7 +1,7 @@
 name: sunday-cron
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/15 * * * *'
 jobs:
   cron:
     runs-on: ubuntu-latest
