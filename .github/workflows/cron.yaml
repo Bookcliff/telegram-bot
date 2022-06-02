@@ -9,4 +9,4 @@ jobs:
       - name: Call Telegram API route
         run: |
           curl --request GET \
-          --url 'https://telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot'c
+          --url 'https://telegram-hwd4vhsgn-bookcliff.vercel.app/api/bot'
